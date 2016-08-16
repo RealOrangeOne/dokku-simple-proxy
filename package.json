@@ -1,0 +1,26 @@
+{
+  "name": "dokku-simple-proxy",
+  "version": "0.0.0",
+  "description": "Simple HTTP proxy for dokku &amp; heroku",
+  "main": "server.js",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RealOrangeOne/dokku-simple-proxy.git"
+  },
+  "author": "TheOrangeOne <git@theorangeone.net>",
+  "bugs": {
+    "url": "https://github.com/RealOrangeOne/dokku-simple-proxy/issues"
+  },
+  "homepage": "https://github.com/RealOrangeOne/dokku-simple-proxy#readme",
+  "dependencies": {
+    "http-proxy": "=1.14.0"
+  },
+  "devDependencies": {
+    "eslint": "=1.5.0",
+    "eslint-config": "git://github.com/dabapps/eslint-config"
+  }
+}
